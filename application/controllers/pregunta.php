@@ -10,11 +10,10 @@
         
         public function index()
         {   
-            $dato_header= array ( 'titulo'=> 'Preguntas');
-
-            $this->load->view("/layout/header.php",$dato_header);
+            
+            $this->load->view("/layout/header.php");
             $this->load->view("/pregunta/index.php");
-            $this->load->view("/layout/foother.php");
+            $this->load->view("/layout/foother_table.php");
         }
 
         public function guardar()

@@ -16,7 +16,9 @@
         <script src="<?= base_url(); ?>application/views/<?= $this->uri-> segment(1);?>/run_table.js" type="text/javascript"></script>
         <script src="<?= base_url(); ?>js/validaciones.js" type="text/javascript"></script>    
 
-
+        <script type="text/javascript">
+        alert("peru");
+        </script>
 
 
     </body>
