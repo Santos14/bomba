@@ -13,7 +13,7 @@
             
             $this->load->view("/layout/header.php");
             $this->load->view("/pregunta/index.php");
-            $this->load->view("/layout/foother_table.php");
+            $this->load->view("/layout/foother.php");
         }
 
         public function guardar()

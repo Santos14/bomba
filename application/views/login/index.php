@@ -19,7 +19,6 @@
         <![endif]-->
     </head>
     <body class="bg-black">
-    <div>hello word</div>
         <div class="form-box" id="login-box">
             <div class="header">Conectarse</div>
             <form action="<?= base_url() ?>login/" method="post">
